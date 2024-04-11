@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  padding: 0px 40px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background: #d7e4c0;
+}
+
+.navBarlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.navBarlogo p {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.searchBar {
+  padding: 40px 80px;
+  padding-top: 140px;
+  padding-bottom: 0px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.searchBar-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fff8e3;
+}
+
+.searchBar input {
+  width: 100%;
+  height: 53px;
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: #f3d7ca;
+    font-family: "Roboto Slab", serif;
+    border: 5px solid #ffffff;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.card-container {
+  width: 100%;
+  height: auto;
+  padding: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #c6dcba;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fff8e3;
+  border-radius: 20px;
+  border: 10px solid #fff8e3;
+}
+
+.card-bg {
+  border-radius: 10px;
+  background: #f3d7ca;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.card p {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.card span {
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  color: #0c0c0c;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .navBar{
+    height: 40px;
+    justify-content: center;
+  }
+
+  .navBarlogo{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navBarlogo img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .navBarlogo p{
+    font-size: 20px;
+  }
+
+  .searchBar{
+    padding: 24px 20px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+
+  .searchBar-container{
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .searchBar-container input{
+    font-size: 20px;
+    height: 40px;
+    padding-left: 10px;
+  }
+
+  .card-container{
+    padding: 24px 20px;
+  }
+
+  .card{
+    border-radius: 10px;
+    border: 5px solid #fff8e3;
+  }
+
+  .card-bg{
+    border-radius: 5px;
+    padding: 0px 10px;
+  }
+
+  .card-bg p{
+    font-size: 20px;
+  }
+
+  .card-bg span{
+    font-size: 20px;
+  }
+}
